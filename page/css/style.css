@@ -1,0 +1,151 @@
+body
+{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    direction: ltr;
+}
+.container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #353637;
+    color: #f4f4f4;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #32a0c2 5px solid;
+}
+
+header a
+{
+color: #faf8f8;
+text-decoration: none;
+font-size: 19px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header #brand
+{
+    float: left;
+}
+header #brand h1
+{
+    margin: 0;
+    color: #32a0c2;
+}
+header #brand h3
+{
+    margin: 0;
+    color: #e9f1f3;
+}
+
+
+header nav
+{
+    float: right;
+    margin-top: 10px;
+}
+header .current a
+{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover
+{
+    color: #d11111;
+    font-weight: bold;
+}
+#page
+{
+    min-height: 600px;
+    background: url("../images/WhatsApp\ Image\ 2020-12-23\ at\ 2.21.58\ PM.jpeg") no-repeat center;
+    background-size:cover;
+}
+#nemsletter
+{
+    padding: 15px;
+    color: #f4f4f4;
+    background: #353637;
+}
+#nemsletter h1
+{
+    float: left;
+}
+#nemsletter form
+{
+    float: right;
+    margin-top: 15px;
+}
+#nemsletter input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.button
+{
+    height: 38px;
+    background: #cccccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #353637;
+}
+#boxes
+{
+    margin-top: px;
+}
+#boxes .box
+{
+    float: right;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #f4f4f4;
+    background-color: #32a0c2;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+@media(max-width:768px)
+{
+    header #brand,
+    header nav,
+    header nav li,
+    #nemsletter h1,
+    #nemsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header
+    {
+        padding-bottom: 20px;
+    }
+    #nemsletter .button
+    {
+        display:block;
+        width: 100%  
+    }
+    #nemsletter form input[type="email"]
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
